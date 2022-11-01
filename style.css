@@ -325,8 +325,9 @@ hr {
 
         width: auto;
         height: auto;
-        padding-buttom: 1px;
+        padding: 0;
         margin: 0;
+        padding-buttom: 1px;
 
     }
 
