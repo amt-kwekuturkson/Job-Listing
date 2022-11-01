@@ -329,7 +329,7 @@ hr {
 
     .Container {
 
-        width: 375px;
+        width: auto;
         height: auto;
 
     }
@@ -338,7 +338,7 @@ hr {
         background-color: #5CA5A5;
         background-image: url('images/bg-header-mobile.svg');
         height: 156px;
-        width: 375px;
+        width: auto;
         margin-bottom: 56px;
     }
 
