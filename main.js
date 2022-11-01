@@ -30,7 +30,7 @@ function hideSearchBox() {
    tool.parentNode.parentNode.style.display = 'none';
    language.parentNode.parentNode.style.display = 'none';
 
-   if (window.innerWidth <= 375) {
+   if (window.innerWidth <= 600) {
       searchBox.style.position = 'static';
    }
 
