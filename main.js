@@ -42,7 +42,7 @@ function hideSearchBox() {
 
 }
 
-window.addEventListener('load', hideSearchBox);
+window.addEventListener('DOMContentLoaded', hideSearchBox);
 
 
 function displayView() {
