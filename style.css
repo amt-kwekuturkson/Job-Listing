@@ -34,8 +34,6 @@ body {
 
 #search-box {
     position: absolute;
-    /*visibility: hidden;*/
-    display: none;
     left: 165px;
     top: 120px;
     height: 72px;
@@ -344,7 +342,7 @@ hr {
     }
 
     #search-box {
-       /* display: none;*/
+        position: static;
         height: 120px;
         width: 327px;
         background-color: #FFFFFF;
