@@ -18,7 +18,6 @@ let searchArray = [];
 
 
 function hideSearchBox() {
-   searchBox.style.display = 'none';
 
    let role = document.getElementById('result-value role-result');
    let language = document.getElementById('result-value language-result');
@@ -30,9 +29,6 @@ function hideSearchBox() {
    tool.parentNode.parentNode.style.display = 'none';
    language.parentNode.parentNode.style.display = 'none';
 
-   if (window.innerWidth <= 420) {
-      searchBox.style.position = 'static';
-   }
 
    let greenSide = document.createElement('div');
    let parent = document.querySelectorAll('.card')[1];
