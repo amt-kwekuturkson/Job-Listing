@@ -321,7 +321,7 @@ hr {
 }
 
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 412px) {
 
     .Container {
         display: flex;
