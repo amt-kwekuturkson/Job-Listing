@@ -366,7 +366,7 @@ hr {
         flex-direction: column;
         width: 425px;
         height: 4000px;
-        min-height: 1000px;
+        min-height: 100%;
     
 
     }
