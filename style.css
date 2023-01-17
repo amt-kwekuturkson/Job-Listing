@@ -11,7 +11,7 @@
 body {
     font-family: 'League Spartan', 'sans-serif';
     font-weight: 700px;
-    overflow-x: hidden;
+
 }
 
 .Container {
@@ -21,6 +21,7 @@ body {
     width: 1440px;
     heigth: 4000;
     min-height: 1000px;
+    overflow-x: hidden;
     
 
 }
@@ -362,18 +363,14 @@ hr {
 
 @media only screen and (max-width: 425px) {
 
-    
-body {
-    
-    overflow-x: hidden;
-}
-    
+ 
     .Container {
         display: flex;
         flex-direction: column;
         width: 425px;
         height: 100%;
         min-height: 100%;
+        overflow-x: hidden;
     
 
     }
