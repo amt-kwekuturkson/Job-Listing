@@ -1,32 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500&display=swap');
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
-
 body {
     font-family: 'League Spartan', 'sans-serif';
     font-weight: 700px;
-
-
+ 
+}
 .Container {
     background-color: #EFFAFA;
     display: flex;
     flex-direction: column;
-    width: 100%;
-    heigth: 4000px;
+    width: 1440px;
+    height: 4000PX;
     min-height: 1000px;
     min-width: 100%;
     overflow-x: hidden;
-
     
-
 }
-
 .solid-color {
     background-color: #5CA5A5;
     background-image: url('images/bg-header-desktop.svg');
@@ -34,7 +28,6 @@ body {
     width: 1440px;
     margin-bottom: 76px;
 }
-
 #search-box {
     position: absolute;
     left: 165px;
@@ -49,10 +42,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 20px 40px;
-
-
 }
-
 .result-container {
     display: flex;
     flex-direction: row;
@@ -64,10 +54,7 @@ body {
     height: 32px;
     width: fit-content;
     margin-right: 15px;
-
-
 }
-
 .result {
     background-color: #EFFAFA;
     color: #5CA5A5;
@@ -78,27 +65,20 @@ body {
     height: 32px;
     width: fit-content;
     flex-wrap: wrap;
-
 }
-
 .close {
     background-color: #5CA5A5;
     width: 32px;
     border-radius: 0px 5px 5px 0px;
     text-align: center;
 }
-
 .close img {
     margin-top: 8px;
 }
-
 .close:hover {
     background-color: #2B3939;
     cursor: pointer;
 }
-
-
-
 .clear {
     padding: 0;
     font-size: 16px;
@@ -115,11 +95,9 @@ body {
     align-items: center;
     align-self: center;
 }
-
 .clear:hover {
     cursor: pointer;
 }
-
 .card {
     height: 152px;
     width: 1110px;
@@ -130,9 +108,7 @@ body {
     margin-bottom: 24px;
     margin-left: auto;
     margin-right: auto;
-
 }
-
 #green-side {
     height: 152px;
     width: 5px;
@@ -141,32 +117,24 @@ body {
     margin: 0px;
     padding: 0px;
     border-radius: 5px 0px 0px 5px;
-
 }
-
-
 #logo {
     height: 88px;
     align-self: center;
     margin-left: 40px;
     margin-right: 24px;
 }
-
 .list-details {
     align-self: center;
     height: 89px;
-
 }
-
 .top {
     display: flex;
     height: 24px;
     align-items: center;
     cursor: pointer;
     margin-bottom: 10px;
-
 }
-
 #company {
     margin-right: 15px;
     cursor: pointer;
@@ -174,7 +142,6 @@ body {
     font-weight: bold;
     color: #5CA5A5;
 }
-
 .new-container {
     text-align: center;
     align-self: center;
@@ -182,21 +149,14 @@ body {
     padding: 7px 8px 4px;
     border-radius: 12px;
     margin-right: 8px;
-
-
 }
-
 .featured-container {
     text-align: center;
     align-self: center;
     background-color: #2B3939;
     padding: 7px 8px 4px;
     border-radius: 12px;
-
-
 }
-
-
 #new,
 #featured {
     color: #FFFFFF;
@@ -205,11 +165,7 @@ body {
     margin: 0px;
     padding: 0px;
     font-weight: 500px;
-
-
 }
-
-
 #position {
     color: #2B3939;
     font-size: 22px;
@@ -217,16 +173,11 @@ body {
     height: 24px;
     padding-top: 2px;
     padding-bottom: 2px;
-
-
-
 }
-
 #position:hover {
     cursor: pointer;
     color: #5CA5A5;
 }
-
 .bottom {
     display: flex;
     cursor: pointer;
@@ -237,7 +188,6 @@ body {
     padding: 0px;
     flex-direction: row;
 }
-
 #postedAt,
 #contract,
 #location {
@@ -247,10 +197,7 @@ body {
     flex-wrap: wrap;
     margin: 0px;
     padding: 0px;
-
 }
-
-
 .bullet {
     color: #7C8F8F;
     width: 4px;
@@ -261,9 +208,7 @@ body {
     margin: 0px;
     margin-right: 18px;
     margin-left: 13px;
-
 }
-
 .bullet1 {
     color: #7C8F8F;
     width: 4px;
@@ -274,15 +219,11 @@ body {
     margin: 0px;
     margin-right: 18px;
     margin-left: 14px;
-
 }
-
 hr {
     visibility: hidden;
     height: 1px;
 }
-
-
 .requirement-container {
     display: flex;
     margin-left: auto;
@@ -290,10 +231,7 @@ hr {
     margin-right: 20px;
     font-size: 16px;
     font-weight: bold;
-
 }
-
-
 #tools,
 #languages,
 #role,
@@ -310,10 +248,7 @@ hr {
     margin-right: 20px;
     align-items: center;
     align-self: center;
-
-
 }
-
 #tools:hover,
 #languages:hover,
 #role:hover,
@@ -322,7 +257,6 @@ hr {
     color: #FFFFFF;
     cursor: pointer;
 }
-
 @media  only screen and (min-width: 1440px) {
     .Container {
         background-color: #EFFAFA;
@@ -358,14 +292,10 @@ hr {
     
     
     }
-
 }
-
-
 @media only screen and (max-width: 425px) {
-  
     .Container {
-        display: flex;
+         display: flex;
          flex-direction: column;
          width: 425px;
          height: 4000px;
@@ -374,16 +304,15 @@ hr {
          min-width: 100%;
          overflow-x: hidden;
 
-    }
 
+    }
     .solid-color {
         background-color: #5CA5A5;
         background-image: url('images/bg-header-mobile.svg');
         height: 156px;
-        width: 100%;
+        width: 425px;
         margin-bottom: 56px;
     }
-
     #search-box {
         position: static;
         height: 120px;
@@ -400,13 +329,9 @@ hr {
         margin-top: -90px;
         padding: 20px 25px 24px 19px;
         flex-wrap: wrap;
-
-
     }
-
     .result-container {
         display: flex;
-
         margin-top: auto;
         margin-bottom: auto;
         margin: 0;
@@ -415,10 +340,7 @@ hr {
         margin-right: 16px;
         margin-bottom: 16px;
         align-content: space-between;
-
-
     }
-
     .result {
         background-color: #EFFAFA;
         color: #5CA5A5;
@@ -429,11 +351,7 @@ hr {
         height: 32px;
         width: fit-content;
         flex-wrap: wrap;
-
     }
-
-
-
     .clear {
       padding: 0;
     font-size: 16px;
@@ -450,12 +368,7 @@ hr {
     text-align: right;
     align-items: center;
     align-self: center;
-
-
     }
-
-
-
     .card {
         height: 257px;
         width: 327px;
@@ -466,9 +379,7 @@ hr {
         margin-bottom: 40px;
         margin-left: auto;
         margin-right: auto;
-
     }
-
     #green-side {
         height: 257px;
         width: 5px;
@@ -477,9 +388,7 @@ hr {
         margin: 0px;
         padding: 0px;
         border-radius: 5px 0px 0px 5px;
-
     }
-
     #logo {
         height: 48px;
         position: absolute;
@@ -488,10 +397,7 @@ hr {
         padding: 0;
         margin-top: -24px;
         margin-left: 24px;
-
     }
-
-
     .list-details {
         padding: 0px;
         width: 231px;
@@ -499,10 +405,7 @@ hr {
         margin-top: 32px;
         align-self: flex-start;
         margin-left: 24px;
-
-
     }
-
     .top {
         display: flex;
         width: 231px;
@@ -510,17 +413,13 @@ hr {
         align-items: center;
         margin: 0px;
         padding: 0px;
-
-
     }
-
     #company {
         margin: 0px;
         font-size: 13px;
         font-weight: 700px;
         margin-right: 33px;
     }
-
     #new,
     #featured {
         color: #FFFFFF;
@@ -529,10 +428,7 @@ hr {
         margin: 0px;
         padding: 0px;
         font-weight: 700px;
-
-
     }
-
     .new-container {
         text-align: center;
         align-self: center;
@@ -540,10 +436,7 @@ hr {
         padding: 7px 8px 4px;
         border-radius: 12px;
         margin-right: 8px;
-
-
     }
-
     .featured-container {
         text-align: center;
         align-self: center;
@@ -551,9 +444,7 @@ hr {
         padding: 6px 9px 4px;
         border-radius: 12px;
         margin-right: 0px;
-
     }
-
     #position {
         color: #2B3939;
         font-size: 15px;
@@ -563,35 +454,24 @@ hr {
         padding-top: 4.5px;
         padding-bottom: 4.5px;
         height: 24px;
-
     }
-
-
     .bottom {
         display: flex;
         width: 234px;
         /*change to 234*/
         margin: 0px;
         padding: 0px;
-
-
     }
-
-
     .bullet {
         margin-left: 9px;
         margin-right: 11px;
         color: #B7C4C4;
     }
-
     .bullet1 {
-
         margin-right: 9px;
         margin-left: 7px;
         color: #B7C4C4;
     }
-
-
     hr {
         visibility: visible;
         margin-top: 15px;
@@ -600,13 +480,7 @@ hr {
         height: 1px;
         width: 279px;
         /* fill: #b7c4c4;*/
-
-
     }
-
-
-
-
     #postedAt,
     #contract,
     #location {
@@ -616,9 +490,6 @@ hr {
         margin: 0px;
         padding: 0px;
     }
-
-
-
     .requirement-container {
         display: flex;
         flex-wrap: wrap;
@@ -632,14 +503,7 @@ hr {
         margin-left: 24px;
         margin-bottom: 24px;
         align-content: space-between;
-
-
-
     }
-
-
-
-
     #tools,
     #languages,
     #role,
@@ -655,15 +519,7 @@ hr {
     align-self: center;
     position: relative;
     margin-right: 16px;
-
     font-size: 16px;
     font-weight: bold;
-
-
-
-
 }
-
-
-
 }
