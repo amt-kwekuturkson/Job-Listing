@@ -32,7 +32,7 @@ body {
     background-color: #5CA5A5;
     background-image: url('images/bg-header-desktop.svg');
     height: 156px;
-    width: 1440px;
+    width: 100%;
     margin-bottom: 76px;
 }
 
@@ -386,7 +386,7 @@ hr {
         background-color: #5CA5A5;
         background-image: url('images/bg-header-mobile.svg');
         height: 156px;
-        width: 425px;
+        width: 100%;
         margin-bottom: 56px;
     }
 
