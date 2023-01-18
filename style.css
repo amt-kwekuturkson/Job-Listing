@@ -9,8 +9,6 @@ body {
     font-family: 'League Spartan', 'sans-serif';
     font-weight: 700px;
     overflow-x: hidden;
-    height: 2088px;
-    min-height: 1000px
  
 }
 .Container {
@@ -298,7 +296,7 @@ hr {
 @media only screen and (min-width: 426px) and (max-width: 1139px)  { 
 body {
     width: 100%;
-    zoom: 50%;
+    zoom: 70%;
 }
 }
 
