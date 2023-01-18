@@ -30,7 +30,9 @@ body {
 }
 #search-box {
     position: absolute;
-    left: 165px;
+    left: 0;
+    right: 0;
+    text-align: center;
     top: 120px;
     height: 72px;
     width: 1110px;
